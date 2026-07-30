@@ -8,7 +8,6 @@ topics:
   - isolate
   - worker
   - concurrent
-  - pool
   - wasm
   - web-workers
 
