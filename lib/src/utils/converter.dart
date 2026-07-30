@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:genio_isolate_manager/isolate_manager.dart';
+import 'package:genio_isolate_manager/genio_isolate_manager.dart';
 import 'package:genio_isolate_manager/src/utils/check_subtype.dart';
 
 /// A constant that is true if the application was compiled to WebAssembly.

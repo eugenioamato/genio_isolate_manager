@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:genio_isolate_manager/isolate_manager.dart';
+import 'package:genio_isolate_manager/genio_isolate_manager.dart';
 import 'package:genio_isolate_manager/src/base/shared/function.dart';
 import 'package:path/path.dart';
 

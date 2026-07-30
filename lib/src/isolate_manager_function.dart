@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:genio_isolate_manager/isolate_manager.dart';
+import 'package:genio_isolate_manager/genio_isolate_manager.dart';
 import 'package:genio_isolate_manager/src/base/shared/function.dart';
 import 'package:genio_isolate_manager/src/isolate_worker/isolate_worker_web.dart'
     if (dart.library.io) 'isolate_worker/isolate_worker_stub.dart';
@@ -112,7 +112,7 @@ abstract class IsolateManagerFunction {
   /// Create a worker in your `main`.
   ///
   /// ```dart
-  /// import 'package:genio_isolate_manager/isolate_manager.dart';
+  /// import 'package:genio_isolate_manager/genio_isolate_manager.dart';
 
   /// main() {
   ///   // The function `fetchAndDecode` MUST NOT depend on any Flutter library

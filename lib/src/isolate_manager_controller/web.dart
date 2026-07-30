@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:js_interop';
 
-import 'package:genio_isolate_manager/isolate_manager.dart';
+import 'package:genio_isolate_manager/genio_isolate_manager.dart';
 import 'package:genio_isolate_manager/src/base/isolate_contactor.dart';
 import 'package:genio_isolate_manager/src/models/initial_params_mixin.dart';
 import 'package:genio_isolate_manager/src/utils/check_subtype.dart';

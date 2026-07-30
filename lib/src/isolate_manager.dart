@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:genio_isolate_manager/isolate_manager.dart';
+import 'package:genio_isolate_manager/genio_isolate_manager.dart';
 import 'package:genio_isolate_manager/src/base/isolate_contactor.dart';
 import 'package:genio_isolate_manager/src/isolate_manager_controller/web.dart'
     if (dart.library.io) 'isolate_manager_controller/stub.dart';

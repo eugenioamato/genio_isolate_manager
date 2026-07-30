@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:genio_isolate_manager/isolate_manager.dart';
+import 'package:genio_isolate_manager/genio_isolate_manager.dart';
 import 'package:genio_isolate_manager/src/base/shared/platforms/web.dart'
     if (dart.library.io) 'package:genio_isolate_manager/src/base/shared/platforms/stub.dart';
 

@@ -1,4 +1,4 @@
-import 'package:genio_isolate_manager/isolate_manager.dart';
+import 'package:genio_isolate_manager/genio_isolate_manager.dart';
 
 /// Check if [S] is subtype of [T]
 bool isSubtype<S, T>() => <S>[] is List<T>;
