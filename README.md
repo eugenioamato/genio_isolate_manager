@@ -676,7 +676,7 @@ These arguments will be forwarded to the Dart process (useful for `dart2js` / `d
 
 ## Performance Benchmark
 
-The following benchmarks demonstrate the performance of recursive Fibonacci calculations across different concurrency approaches and environments. Measurements are in microseconds (µs) and represent the **median of 30 samples** to ensure stability. Benchmarked on a MacBook M1 Pro 14" with 16GB RAM.
+The following benchmarks demonstrate the performance of recursive Fibonacci calculations across different concurrency approaches and environments. Measurements are in microseconds (µs) and represent the **median of 30 samples** to ensure stability. Benchmarked on a PC with NVIDIA RTX 3070 Ti and 16GB RAM.
 
 * **VM (Native)**
 
