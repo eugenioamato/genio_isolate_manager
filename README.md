@@ -682,25 +682,25 @@ The following benchmarks demonstrate the performance of recursive Fibonacci calc
 
 | Fibonacci | Main App | One Isolate | Three Isolates | IsolateManager.runFunction | IsolateManager.run | Isolate.run |
 | :-------: | -------: | ----------: | -------------: | -------------------------: | -----------------: | ----------: |
-|    26     |    1,577 |       1,576 |            572 |                      1,731 |              1,661 |       1,615 |
-|    28     |    4,140 |       4,166 |          1,477 |                      4,188 |              4,178 |       4,132 |
-|    30     |   10,892 |      10,881 |          4,530 |                     11,207 |             10,793 |      10,765 |
+|    26     |      765 |         844 |            304 |                      1,040 |              1,153 |         891 |
+|    28     |    2,076 |       2,144 |            788 |                      2,398 |              2,484 |       2,213 |
+|    30     |    5,246 |       5,553 |          2,343 |                      5,862 |              6,102 |       5,665 |
 
 * **Chrome (with Worker support, JS compiler)**
 
 | Fibonacci | Main App | One Isolate | Three Isolates | IsolateManager.runFunction | IsolateManager.run | Isolate.run (Unsupported) |
 | :-------: | -------: | ----------: | -------------: | -------------------------: | -----------------: | ------------------------: |
-|    26     |    5,108 |       1,333 |            596 |                      8,607 |              8,797 |                         0 |
-|    28     |   13,486 |       3,256 |          1,340 |                     10,156 |             10,683 |                         0 |
-|    30     |   34,990 |       8,500 |          4,000 |                     15,230 |             15,000 |                         0 |
+|    26     |    1,914 |       1,450 |            742 |                     14,344 |             14,396 |                         0 |
+|    28     |    4,993 |       3,273 |          1,573 |                     16,220 |             16,280 |                         0 |
+|    30     |   13,050 |       8,550 |          4,540 |                     20,650 |             20,810 |                         0 |
 
 * **Chrome (with Worker support, WASM compiler)**
 
 | Fibonacci | Main App | One Isolate | Three Isolates | IsolateManager.runFunction | IsolateManager.run | Isolate.run (Unsupported) |
 | :-------: | -------: | ----------: | -------------: | -------------------------: | -----------------: | ------------------------: |
-|    26     |      504 |       1,320 |            594 |                      8,424 |              8,422 |                         0 |
-|    28     |    1,303 |       3,220 |          1,323 |                     10,660 |             10,266 |                         0 |
-|    30     |    3,379 |       8,370 |          3,960 |                     14,800 |             15,010 |                         0 |
+|    26     |      344 |       1,468 |            752 |                     14,320 |             14,314 |                         0 |
+|    28     |      880 |       3,276 |          1,573 |                     16,116 |             16,163 |                         0 |
+|    30     |    2,330 |       8,450 |          4,440 |                     20,540 |             20,560 |                         0 |
 
 For more details, see the [full benchmark information](https://github.com/eugenioamato/genio_isolate_manager/tree/main/benchmark).
 
